@@ -2,7 +2,7 @@ class CashRegister
   
   attr_accessor :items, :price, :discount, :total
   
-def 
+def initialize(discount = 0)
   
   
   
