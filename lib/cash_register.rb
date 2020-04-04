@@ -8,8 +8,7 @@ def initialize(discount = 0)
   
 end
   
-def 
-end 
+
   
   
   
