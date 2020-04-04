@@ -9,6 +9,8 @@ def initialize(discount = 0)
 end
   
 def add_item(item, price, quantity = 1)
+    @price = price
+    @quantity = quantity
     quantity.times do 
     @items << item 
   end
@@ -29,8 +31,10 @@ def items
 end
 
 def void_last_transaction
-  @items.pop
-  
+    @quantity.times do 
+    @items.pop
+  end
+    @total -= @price * @quanity
 end
   
   
