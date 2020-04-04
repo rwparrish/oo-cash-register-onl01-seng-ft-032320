@@ -9,7 +9,7 @@ def initialize(discount = 0)
 end
 
 def total
-  @total
+  @items
 end 
   
 def add_items(title, price, quantity = 1)
